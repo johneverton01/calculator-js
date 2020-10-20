@@ -1,0 +1,16 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johneverton01/calculator-js.git",
+  "author": "John Everton <john@johncode.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "dev": "babel ./assets/js/main.js -o ./assets/js/bundle.js -w"
+  }
+}
