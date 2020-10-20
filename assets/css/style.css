@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+.calculator{
+    height: 530px;
+    width: 320px;
+    border: 1px solid #fff;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+table td{
+    width: 80px;
+    height: 78.33px;
+    color: rgb(17, 16, 16);
+    background-color: #dedede;
+    text-align: center;
+}
+#input{
+    height: 40px;
+    text-align: right;
+    width: 100%;
+}
