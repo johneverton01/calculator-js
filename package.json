@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/johneverton01/calculator-js.git",
-  "author": "John Everton <john@johncode.com.br>",
+  "author": "John Everton <johneverton44@gmail.com.br>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "babel ./assets/js/main.js -o ./assets/js/bundle.js -w"
+    "dev": "webpack serve --mode development -w",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1"
   }
 }

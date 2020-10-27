@@ -50,5 +50,3 @@ var Operations = /*#__PURE__*/function () {
 
   return Operations;
 }();
-
-console.log(Operations.square(4));

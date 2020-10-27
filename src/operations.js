@@ -28,4 +28,4 @@ class Operations {
     }
 }
 
-console.log(Operations.square(4));
+export default Operations;
