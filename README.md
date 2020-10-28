@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -26,27 +26,27 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Instalação
+## :memo: Instalação
 
 Para instalar esse projeto você deve ter yarn ou npm e executar os seguintes comandos:
 
-...
+```
 yarn install
-...
+```
 
-...
+```
 yarn dev
-...
+```
 
 ou
 
-...
+```
 npm install
-...
+```
 
-...
+```
 npm dev
-...
+```
 
 ## :memo: Licença
 
