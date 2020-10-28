@@ -15,9 +15,9 @@ class Operations {
         return a * b;
     }
 
-    static multiplication(a, b) {
+   /*  static multiplication(a, b) {
         return a * b;
-    }
+    } */
 
     static power(a, b) {
         return Math.pow(a,b);
